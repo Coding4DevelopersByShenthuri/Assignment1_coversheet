@@ -1,0 +1,45 @@
+
+#section2main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    height: 80vh;
+}
+
+#right, #left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+     
+    
+}
+#right{
+    background-color: #74a6ec00;
+    color: rgb(1, 8, 15);
+    border: 2px solid rgb(121, 121, 121);
+}
+#left{
+    background-color: rgb(137, 194, 243);
+}
+
+/* .card:hover{
+
+} */
+.card span{
+    display: grid;
+    justify-content:center;
+    align-items:center;
+    grid-template-columns: 1fr 3fr;
+    width: 100%;
+
+   
+    /* gap: 30%; */
+}
+
+.card span span{
+    font-weight: 600;
+    display: inline;
+    justify-self: center;
+}
